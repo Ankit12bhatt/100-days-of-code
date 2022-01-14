@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class inc {
     public static void main(String[] args) {
