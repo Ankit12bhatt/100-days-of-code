@@ -1,4 +1,4 @@
-
+// pogram will first decrease and thn increase.
 import java.util.*;
 public class decinc {
     public static void main(String[] args) {
