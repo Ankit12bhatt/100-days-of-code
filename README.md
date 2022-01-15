@@ -1,6 +1,6 @@
 # 100daysofcode
 day 1 of 100 days of code start on 14 jan 2022.                                                                                                           
-💬 Will be studing recursion and backtraking First .  
+📫 Will be studing recursion and backtraking First .  
 
 
 ⚡ Day 1 :- studied basic concept of recursion and mathematical induction and solved few basic recursion question( single function ).       
