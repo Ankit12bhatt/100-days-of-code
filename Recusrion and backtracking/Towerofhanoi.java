@@ -14,9 +14,9 @@ public class Towerofhanoi {
         {
             return;
         }
-        hanoi(n-1, TOA, TOC, TOB);
+        hanoi(n-1, TOA, TOC, TOB); // movement of disk from a->c
         System.out.println(n+"["+TOA+"->"+TOB+"]");
-        hanoi(n-1, TOC, TOB, TOA);
+        hanoi(n-1, TOC, TOB, TOA); // movement disk from c-> b
     }
 
     
