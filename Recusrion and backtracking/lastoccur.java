@@ -11,23 +11,32 @@ public class lastoccur {
         System.out.println("enter search element");
         int data=in.nextInt();
         int occur=lastoccurance(arr, data, 0);
-        System.out.println(occur);
+        System.out.println(occur+1);
 
 
     }
     public static int lastoccurance(int arr[], int data, int n)
     {
-        if(n==0)
+        if(n==arr.length)
         {
+            return -1;
+        }
+        int lstindx=lastoccurance(arr, data, n+1);
+        if(lstindx==-1)
+        {
+            if(arr[n]==data)
+             {
             return n;
         }
-        if(n==data)
-        {
-            return n;
-            
+        else{
+            return -1;
         }
-        int occur=lastoccurance(arr, data, arr.length-1);
-        return occur;
+    }
+        else{
+            return lstindx;
+
+        }
+    
     }
     
 }
