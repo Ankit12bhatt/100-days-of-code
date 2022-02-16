@@ -7,7 +7,7 @@ public class removefirst {
     public static class LinkedList{
         node head;
         node tail;
-        int size;
+        int size=0;
         public void addlist(int val)
         {
             node temp=new node();
@@ -29,12 +29,13 @@ public class removefirst {
         }
         public void removefirst()
         {
-            node temp=head.next;
+            
             if(size==0)
             {
                 System.out.println("emptylist");
             }
             else{
+                node temp=head.next;
                 while(temp!=null)
                 {
                     System.out.println(temp.data);
