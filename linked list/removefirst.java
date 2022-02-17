@@ -57,7 +57,7 @@ public class removefirst {
         }
         System.out.println("removed element");
         list.removefirst();
-        system.exit();
+        System.exit();
         
     }
 }
