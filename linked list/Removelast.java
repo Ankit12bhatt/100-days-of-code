@@ -39,6 +39,18 @@ public class Removelast {
         }
         public void remove(){
             node temp=head;
+            if(size<0)
+            {
+                System.out.println("cant remove Empty list");
+            }
+            else if(size==1)
+            {
+                System.out.println("Taile before removing="+tail.data);
+                head=tail=temp=null;
+                System.out.println("Taile after removing="+temp.data);
+                
+            }
+            else{
             System.out.println("Taile before removing="+tail.data);
             for(int i=1;i<size-1;i++)
             {
@@ -49,6 +61,7 @@ public class Removelast {
             tail=temp;
             System.out.println("Taile after removing="+tail.data);
         }
+    }
     }
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
