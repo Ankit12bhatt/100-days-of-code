@@ -1,0 +1,2 @@
+lue;
+                   temp.next=null;
