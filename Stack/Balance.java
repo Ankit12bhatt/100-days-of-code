@@ -20,7 +20,7 @@ public class Balance {
             }
             else if(ch==')')
             {
-                while( st.peek()!='(')
+                while( st.peek()!='('
                 {
                     st.pop();
                     System.out.println("poped items:="+st);
